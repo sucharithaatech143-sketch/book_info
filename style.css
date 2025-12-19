@@ -1,0 +1,165 @@
+
+
+.science-gothic {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+.navbar
+{
+    background-color:#ace346;
+    padding: 10px;
+    border-radius: 30px;
+    height: 100px;
+
+
+}
+.top
+{
+    padding: 20px;
+
+}
+.container
+{
+    padding:15px;
+    color:#c4d68d;
+    background-color: black;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 20px;
+        word-wrap: break-word; /* breaks long words to wrap */
+    overflow-wrap: break-word; /* newer syntax */
+    white-space: normal; /* allows wrapping */
+    max-width: 300px; /* or the width of your container */
+    
+}
+
+.xb
+{
+    border-radius: 30px;
+    padding:10px;
+    margin-top: 10px;
+    background-color: #ace346;
+    color: black;
+
+}
+.addbtn
+{
+   border-radius: 100px;
+   background-color: #ace346;
+   color: black;
+   font-size: 30px;
+   position:fixed;
+   padding:30px;
+   bottom: 30px;
+   right: 30px;
+
+
+}
+form{display:flex;
+  flex-direction: column;}
+.pop {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index:2;
+}
+
+.popinfo {
+    display: none; /* or none if you hide it */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: 999;
+    height: 500px;
+    width: 600px;
+    top:90px;
+    left: 500px;
+    margin-top: 200px;
+    margin-left: 300px;
+
+}
+
+/* Center the .box */
+.box {
+    position: none;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color:#ace346;;
+    padding: 25px;
+    border-radius: 20px;
+    width: 500px;
+height: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left:500px;
+  
+
+}
+.A1,.A2,.A3
+{
+    border-radius: 10px;
+    background: transparent;
+     outline: none;
+   
+}
+
+.A3
+{
+   height: 40px;
+
+}
+.btn1
+{
+    width:50px;
+    height: 30px;
+    background:#000000;
+    color: #ace346;
+    
+    margin-left: 90px;
+}
+.btn2
+{
+    width:70px;
+    height: 30px;
+    background:#000000;
+    color: #ace346;
+    
+    margin-left: 30px;
+}
+.x {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;        /* space between buttons */
+    margin-top: 10px;
+    flex-wrap: nowrap; /* IMPORTANT – prevents stacking */
+}
+
+.x button {
+    width: 100px;     /* same size buttons */
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
